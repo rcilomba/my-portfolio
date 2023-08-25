@@ -3,8 +3,9 @@ import React from "react";
 function Works() {
     return(
         <div>
-            About
+            Works
         </div>
     )
 }
 export default Works;
+
