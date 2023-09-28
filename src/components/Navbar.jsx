@@ -89,7 +89,7 @@ const Navbar = () => {
                 )
               }
             >
-              Linkedin <FaLinkedin size={3} />
+              Linkedin <FaLinkedin size={30} />
             </button>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
