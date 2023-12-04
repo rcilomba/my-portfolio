@@ -1,5 +1,5 @@
 import React from "react";
-import code from "../assets/code2.png";
+// import code from "../assets/code2.png";
 import weatherApp from "../assets/weatherApp.png";
 import photoDotNet from "../assets/photoDotNet.png";
 import hemasblomster from "../assets/hemasblomster.png";
