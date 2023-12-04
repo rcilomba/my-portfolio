@@ -73,12 +73,12 @@ function Works() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          > */}
+          {/* Hover Effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 Calculator
               </span>
@@ -96,7 +96,7 @@ function Works() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             style={{ backgroundImage: `url(${hemasblomster})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -108,7 +108,7 @@ function Works() {
               </span>
               <p className="text-center">A website created for a customer</p>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://hemasblomster.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -121,12 +121,12 @@ function Works() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          > */}
+          {/* Hover Effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 CBT Application
               </span>
@@ -146,13 +146,13 @@ function Works() {
                 </a>
               </div>
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          > */}
+          {/* Hover Effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 CBT Application
               </span>
@@ -172,7 +172,7 @@ function Works() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

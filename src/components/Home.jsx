@@ -13,10 +13,10 @@ function Home() {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             Based in Copenhagen, but originally from Stockholm, I'm passionate
-            about crafting web applications. My toolkit includes React,
-            Tailwind, Next.js, and [MongoDB], which I leverage to create
-            engaging digital experiences. During my free hours, I also enjoy
-            training brazilian jiu jitsu and judo.
+            about crafting web applications. My toolkit includes Javascript,
+            React and Tailwind, which I leverage to create engaging digital
+            experiences. During my free hours, I also enjoy training brazilian
+            jiu jitsu and judo.
           </p>
           <div>
             <Link
