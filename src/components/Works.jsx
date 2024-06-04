@@ -3,6 +3,8 @@ import React from "react";
 import weatherApp from "../assets/weatherApp.png";
 import photoDotNet from "../assets/photoDotNet.png";
 import hemasblomster from "../assets/hemasblomster.png";
+import gameBoard from "../assets/game-board.png";
+import dankoed from "../assets/dankoed.png";
 
 function Works() {
   return (
@@ -73,12 +75,12 @@ function Works() {
               </div>
             </div>
           </div>
-          {/* <div
-            style={{ backgroundImage: `url(${code})` }}
+          <div
+            style={{ backgroundImage: `url(${hemasblomster})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* Hover Effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 Calculator
               </span>
@@ -96,24 +98,26 @@ function Works() {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           <div
-            style={{ backgroundImage: `url(${hemasblomster})` }}
+            style={{ backgroundImage: `url(${gameBoard})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
-                Hema's Blomster
+                Game Board
               </span>
-              <p className="text-center">A website created for a customer</p>
+              <p className="text-center">
+                A game where you will avoid the bombs
+              </p>
               <div className="pt-8 text-center">
-                <a href="https://hemasblomster.netlify.app/">
+                <a href="https://inspiring-monstera-a935e6.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/rcilomba/game-board">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -121,32 +125,30 @@ function Works() {
               </div>
             </div>
           </div>
-          {/* <div
-            style={{ backgroundImage: `url(${code})` }}
+          <div
+            style={{ backgroundImage: `url(${dankoed})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* Hover Effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
-                CBT Application
+                Chat application
               </span>
-              <p className="text-center">
-                A CBT web application built with React and Mongodb
-              </p>
+              <p className="text-center">Chat application final</p>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="http://dankoed.dk/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="http://dankoed.dk/wp-admin">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
