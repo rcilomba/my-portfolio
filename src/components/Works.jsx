@@ -82,9 +82,9 @@ function Works() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
-                Calculator
+                Hema's blomster
               </span>
-              <p className="text-center">A calculator with javascript</p>
+              <p className="text-center">A Webshop build with PrestaShop</p>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -132,9 +132,9 @@ function Works() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
-                Chat application
+                Dankød
               </span>
-              <p className="text-center">Chat application final</p>
+              <p className="text-center">A Website build with WordPress</p>
               <div className="pt-8 text-center">
                 <a href="http://dankoed.dk/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
