@@ -86,7 +86,7 @@ function Works() {
               </span>
               <p className="text-center">A Webshop build with PrestaShop</p>
               <div className="pt-8 text-center">
-                <a href="www.hemasblomster.dk">
+                <a href="https://hemasblomster.dk/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
