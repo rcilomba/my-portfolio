@@ -5,6 +5,7 @@ import photoDotNet from "../assets/photoDotNet.png";
 import hemasblomster from "../assets/hemasblomster.png";
 import gameBoard from "../assets/game-board.png";
 import dankoed from "../assets/dankoed.png";
+import jsGallery from "../assets/jsGallery.png";
 
 function Works() {
   return (
@@ -58,7 +59,7 @@ function Works() {
               </span>
               <p className="text-center">A Website built with .ASP.NET Core</p>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://photogallery-asp-net.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -149,32 +150,30 @@ function Works() {
               </div>
             </div>
           </div>
-          {/* <div
-            style={{ backgroundImage: `url(${code})` }}
+          <div
+            style={{ backgroundImage: `url(${jsGallery})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* Hover Effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
-                CBT Application
+                Photo Gallery
               </span>
-              <p className="text-center">
-                A CBT web application built with React and Mongodb
-              </p>
+              <p className="text-center">Photo gallery build with JavaScript</p>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://cute-meringue-180ad7.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/rcilomba/js-photo-gallery">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
