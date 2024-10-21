@@ -6,6 +6,7 @@ import hemasblomster from "../assets/hemasblomster.png";
 import gameBoard from "../assets/game-board.png";
 import dankoed from "../assets/dankoed.png";
 import jsGallery from "../assets/jsGallery.png";
+import allstars from "../assets/allstars.png";
 
 function Works() {
   return (
@@ -26,7 +27,7 @@ function Works() {
             style={{ backgroundImage: `url(${weatherApp})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effects */}
+            {/* Hver Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 Weather App
@@ -174,12 +175,13 @@ function Works() {
               </div>
             </div>
           </div>
-          {/* <div
-            style={{ backgroundImage: `url(${code})` }}
+          <div
+            style={{ backgroundImage: `url(${allstars})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* Hover Effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+          >
+            {" "}
+            *{/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 CBT Application
               </span>
@@ -199,7 +201,7 @@ function Works() {
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
