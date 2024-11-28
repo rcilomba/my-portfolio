@@ -183,10 +183,10 @@ function Works() {
             *{/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
-                CBT Application
+                Allstar Training Center
               </span>
               <p className="text-center">
-                A CBT web application built with React and Mongodb
+                Martial Arts website build with React
               </p>
               <div className="pt-8 text-center">
                 <a href="https://rcilo-as.netlify.app/">
