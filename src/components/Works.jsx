@@ -1,48 +1,51 @@
-import React from "react";
+import React from 'react';
 // import code from "../assets/code2.png";
-import weatherApp from "../assets/weatherApp.png";
-import photoDotNet from "../assets/photoDotNet.png";
-import hemasblomster from "../assets/hemasblomster.png";
-import gameBoard from "../assets/game-board.png";
-import dankoed from "../assets/dankoed.png";
-import jsGallery from "../assets/jsGallery.png";
-import allstars from "../assets/allstars.png";
+import weatherApp from '../assets/weatherApp.png';
+import photoDotNet from '../assets/photoDotNet.png';
+import hemasblomster from '../assets/hemasblomster.png';
+import gameBoard from '../assets/game-board.png';
+import dankoed from '../assets/dankoed.png';
+import jsGallery from '../assets/jsGallery.png';
+import allstars from '../assets/allstars.png';
 
 function Works() {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#062419]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8 w-full flex justify-center items-center flex-col">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-green-500">
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#062419]'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='pb-8 w-full flex justify-center items-center flex-col'>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-500'>
             Work
           </p>
-          <p className="py-6 text-2xl">
+          <p className='py-6 text-2xl'>
             Check out some of my work. Please contact me if you want to see more
           </p>
         </div>
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${weatherApp})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hver Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
                 Weather App
               </span>
-              <p className="text-center">
-                A Weather Application built with React
+              <p className='text-center'>
+                React-based application integrating external weather APIs with
+                structured state management and dynamic UI updates. Focused on
+                handling asynchronous data flows, API error states, and
+                responsive user experience{' '}
               </p>
-              <div className="pt-8 text-center">
-                <a href="https://deft-squirrel-728ebd.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <div className='pt-8 text-center'>
+                <a href='https://deft-squirrel-728ebd.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rcilomba/react-weather-app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href='https://github.com/rcilomba/react-weather-app'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -51,26 +54,31 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${photoDotNet})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
                 Photo Gallery
               </span>
-              <p className="text-center">A Website built with .ASP.NET Core</p>
-              <div className="pt-8 text-center">
-                <a href="https://photogallery-asp-net.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <p className='text-center'>
+                Web application built with ASP.NET Core, structured around clean
+                routing and scalable backend architecture. Implemented dynamic
+                content rendering and focused on maintainable structure and
+                performance optimisation.
+              </p>
+              <div className='pt-8 text-center'>
+                <a href='https://photogallery-asp-net.vercel.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/rcilomba/PhotoGallery-with-ASP.NET"
-                  target="_blank"
-                  rel="noreferrer"
+                  href='https://github.com/rcilomba/PhotoGallery-with-ASP.NET'
+                  target='_blank'
+                  rel='noreferrer'
                 >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -79,22 +87,27 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${hemasblomster})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
-                Hema's blomster
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Hema's blomster -E-commerce Platform
               </span>
-              <p className="text-center">A Webshop build with PrestaShop</p>
-              <div className="pt-8 text-center">
-                <a href="https://hemasblomster.dk/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <p className='text-center'>
+                Developed and configured a PrestaShop-based webshop for a real
+                client, including payment integration, product structure, SEO
+                optimisation, and hosting configuration. Focused on performance,
+                usability, and stable operational setup
+              </p>
+              <div className='pt-8 text-center'>
+                <a href='https://hemasblomster.dk/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/hemasblomster/hemasblomster-website">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href='https://github.com/hemasblomster/hemasblomster-website'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -103,24 +116,26 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${gameBoard})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
                 Game Board
               </span>
-              <p className="text-center">
-                A game where you will avoid the bombs
+              <p className='text-center'>
+                Interactive browser-based game built with JavaScript, focusing
+                on logical state handling, event-driven interactions, and
+                structured component logic.{' '}
               </p>
-              <div className="pt-8 text-center">
-                <a href="https://inspiring-monstera-a935e6.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <div className='pt-8 text-center'>
+                <a href='https://inspiring-monstera-a935e6.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rcilomba/game-board">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href='https://github.com/rcilomba/game-board'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -129,22 +144,26 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${dankoed})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
-                Dankød
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Dankød -Corporate Website
               </span>
-              <p className="text-center">A Website build with WordPress</p>
-              <div className="pt-8 text-center">
-                <a href="http://dankoed.dk/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <p className='text-center'>
+                Interactive browser-based game built with JavaScript, focusing
+                on logical state handling, event-driven interactions, and
+                structured component logic.
+              </p>
+              <div className='pt-8 text-center'>
+                <a href='http://dankoed.dk/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href="http://dankoed.dk/wp-admin">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href='http://dankoed.dk/wp-admin'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -153,22 +172,26 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${jsGallery})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
                 Photo Gallery
               </span>
-              <p className="text-center">Photo gallery build with JavaScript</p>
-              <div className="pt-8 text-center">
-                <a href="https://cute-meringue-180ad7.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <p className='text-center'>
+                Frontend-driven gallery with dynamic DOM manipulation and
+                structured data handling, built with focus on performance and
+                maintainable UI structure.
+              </p>
+              <div className='pt-8 text-center'>
+                <a href='https://cute-meringue-180ad7.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rcilomba/js-photo-gallery">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href='https://github.com/rcilomba/js-photo-gallery'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
@@ -177,25 +200,27 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${allstars})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
-            {" "}
+            {' '}
             *{/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
-              <span className=" text-lg font-bold text-white tracking-wider">
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
                 Allstar Training Center
               </span>
-              <p className="text-center">
-                Martial Arts website build with React
+              <p className='text-center'>
+                Responsive React-based website with structured component
+                architecture and performance-focused frontend design. Built with
+                scalability and user experience in mind.
               </p>
-              <div className="pt-8 text-center">
-                <a href="https://rcilo-as.netlify.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+              <div className='pt-8 text-center'>
+                <a href='https://rcilo-as.netlify.app/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                <a href='/'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
