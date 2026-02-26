@@ -33,10 +33,8 @@ function Works() {
                 Weather App
               </span>
               <p className='text-center'>
-                React-based application integrating external weather APIs with
-                structured state management and dynamic UI updates. Focused on
-                handling asynchronous data flows, API error states, and
-                responsive user experience{' '}
+                React app integrating external weather APIs with dynamic state
+                handling and responsive UI.{' '}
               </p>
               <div className='pt-8 text-center'>
                 <a href='https://deft-squirrel-728ebd.netlify.app/'>
@@ -62,10 +60,8 @@ function Works() {
                 Photo Gallery
               </span>
               <p className='text-center'>
-                Web application built with ASP.NET Core, structured around clean
-                routing and scalable backend architecture. Implemented dynamic
-                content rendering and focused on maintainable structure and
-                performance optimisation.
+                ASP.NET Core application with structured routing and scalable
+                backend architecture.
               </p>
               <div className='pt-8 text-center'>
                 <a href='https://photogallery-asp-net.vercel.app/'>
@@ -95,10 +91,8 @@ function Works() {
                 Hema's blomster -E-commerce Platform
               </span>
               <p className='text-center'>
-                Developed and configured a PrestaShop-based webshop for a real
-                client, including payment integration, product structure, SEO
-                optimisation, and hosting configuration. Focused on performance,
-                usability, and stable operational setup
+                PrestaShop e-commerce solution with payment integration, SEO
+                setup, and hosting configuration.
               </p>
               <div className='pt-8 text-center'>
                 <a href='https://hemasblomster.dk/'>
@@ -124,9 +118,8 @@ function Works() {
                 Game Board
               </span>
               <p className='text-center'>
-                Interactive browser-based game built with JavaScript, focusing
-                on logical state handling, event-driven interactions, and
-                structured component logic.{' '}
+                JavaScript browser game focused on logical state handling and
+                event-driven interactions.{' '}
               </p>
               <div className='pt-8 text-center'>
                 <a href='https://inspiring-monstera-a935e6.netlify.app/'>
@@ -152,9 +145,8 @@ function Works() {
                 Dankød -Corporate Website
               </span>
               <p className='text-center'>
-                Interactive browser-based game built with JavaScript, focusing
-                on logical state handling, event-driven interactions, and
-                structured component logic.
+                WordPress-based corporate website with structured content,
+                plugin configuration, and hosting setup.
               </p>
               <div className='pt-8 text-center'>
                 <a href='http://dankoed.dk/'>
@@ -180,9 +172,8 @@ function Works() {
                 Photo Gallery
               </span>
               <p className='text-center'>
-                Frontend-driven gallery with dynamic DOM manipulation and
-                structured data handling, built with focus on performance and
-                maintainable UI structure.
+                Dynamic JavaScript gallery using DOM manipulation and structured
+                data handling.
               </p>
               <div className='pt-8 text-center'>
                 <a href='https://cute-meringue-180ad7.netlify.app/'>
@@ -203,15 +194,14 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {' '}
-            *{/* Hover Effects */}
+            {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Allstar Training Center
               </span>
               <p className='text-center'>
-                Responsive React-based website with structured component
-                architecture and performance-focused frontend design. Built with
-                scalability and user experience in mind.
+                Responsive React website built with structured components and
+                performance-focused design.
               </p>
               <div className='pt-8 text-center'>
                 <a href='https://rcilo-as.netlify.app/'>
