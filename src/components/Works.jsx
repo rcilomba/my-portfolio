@@ -88,7 +88,7 @@ function Works() {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                Hema's blomster -E-commerce Platform
+                Hema's blomster
               </span>
               <p className='text-center'>
                 PrestaShop e-commerce solution with payment integration, SEO
@@ -142,7 +142,7 @@ function Works() {
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
               <span className=' text-lg font-bold text-white tracking-wider'>
-                Dankød -Corporate Website
+                Dankød
               </span>
               <p className='text-center'>
                 WordPress-based corporate website with structured content,
