@@ -16,8 +16,10 @@ function Home() {
             intersection of web technologies, automation, and structured
             problem-solving. I focus on building reliable, scalable digital
             solutions and continuously improving how tools and processes
-            function in real operations. Outside of work, I train Brazilian jiu
-            jitsu and judo.
+            function in real operations. Whether I am working with frontend
+            architecture or operational systems, I am motivated by creating
+            clarity, stability, and continuous improvement in digital
+            environments.
           </p>
           <div>
             <Link

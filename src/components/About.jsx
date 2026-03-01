@@ -23,12 +23,12 @@ const About = () => {
             </div>
             <div>
               <p>
-                I work at the intersection of systems, workflows, and web
-                technologies. I enjoy understanding how digital tools are used
-                in practice and improving them to be more structured, reliable,
-                and scalable. Whether I am working with frontend architecture or
-                operational systems, I am motivated by creating clarity,
-                stability, and continuous improvement in digital environments.
+                Beyond tech, I'm someone who values balance and personal growth.
+                I train BJJ and judo, keep myself in shape, and enjoy the mix of
+                discipline and creativity that comes with reading, music,
+                baking, and spending time with the people I care about. I'm also
+                working on becoming better at chess — a challenge that mirrors
+                the strategic mindset I bring to my work.
               </p>
             </div>
           </div>
