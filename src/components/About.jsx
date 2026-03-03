@@ -27,7 +27,7 @@ const About = () => {
                 I train BJJ and judo, keep myself in shape, and enjoy the mix of
                 discipline and creativity that comes with reading, music,
                 baking, and spending time with the people I care about. I'm also
-                working on becoming better at chess — a challenge that mirrors
+                working on becoming better at chess, a challenge that mirrors
                 the strategic mindset I bring to my work.
               </p>
             </div>
