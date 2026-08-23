@@ -8,6 +8,7 @@ import gameBoard from '../assets/game-board.png';
 import dankoed from '../assets/dankoed.png';
 import jsGallery from '../assets/jsGallery.png';
 import allstars from '../assets/allstars.png';
+import drawlab from '../assets/drawlab.png';
 
 function Works() {
   const shouldReduceMotion = useReducedMotion();
@@ -32,6 +33,88 @@ function Works() {
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${drawlab})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Drawlab
+              </span>
+              <p className='text-center'>
+                React/Next.js-based website with reusable components, responsive
+                layout, and frontend performance setup.
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  href='http://drawlabdk.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Dankod admin in new tab'
+                  >
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href='https://github.com/rcilomba/drawlab'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Dankod admin in new tab'
+                  >
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${dankoed})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Dankød
+              </span>
+              <p className='text-center'>
+                WordPress-based corporate website with structured content,
+                plugin configuration, and hosting setup.
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  href='http://dankoed.dk/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Dankod admin in new tab'
+                  >
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href='http://dankoed.dk/wp-admin'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Dankod admin in new tab'
+                  >
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${weatherApp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
@@ -60,7 +143,10 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Weather App code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Weather App code in new tab'
+                  >
                     Code
                   </button>
                 </a>
@@ -86,7 +172,10 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Photo Gallery code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Photo Gallery code in new tab'
+                  >
                     Demo
                   </button>
                 </a>
@@ -95,13 +184,17 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Photo Gallery code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Photo Gallery code in new tab'
+                  >
                     Code
                   </button>
                 </a>
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${hemasblomster})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
@@ -121,7 +214,10 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Hema project code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Hema project code in new tab'
+                  >
                     Demo
                   </button>
                 </a>
@@ -130,7 +226,10 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Hema project code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Hema project code in new tab'
+                  >
                     Code
                   </button>
                 </a>
@@ -156,7 +255,10 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Game Board code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Game Board code in new tab'
+                  >
                     Demo
                   </button>
                 </a>
@@ -165,48 +267,17 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Game Board code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Game Board code in new tab'
+                  >
                     Code
                   </button>
                 </a>
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${dankoed})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                Dankød
-              </span>
-              <p className='text-center'>
-                WordPress-based corporate website with structured content,
-                plugin configuration, and hosting setup.
-              </p>
-              <div className='pt-8 text-center'>
-                <a
-                  href='http://dankoed.dk/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Dankod admin in new tab'>
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='http://dankoed.dk/wp-admin'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open Dankod admin in new tab'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div
             style={{ backgroundImage: `url(${jsGallery})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
@@ -235,7 +306,10 @@ function Works() {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400' aria-label='Open JS Gallery code in new tab'>
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open JS Gallery code in new tab'
+                  >
                     Code
                   </button>
                 </a>
