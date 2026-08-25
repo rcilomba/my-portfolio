@@ -115,6 +115,83 @@ function Works() {
               </div>
             </div>
           </div>
+
+          <div
+            style={{ backgroundImage: `url(${hemasblomster})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Hema's blomster
+              </span>
+              <p className='text-center'>
+                PrestaShop e-commerce solution with payment integration, SEO
+                setup, and hosting configuration.
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  href='https://hemasblomster.dk/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Hema project code in new tab'
+                  >
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href='https://github.com/hemasblomster/hemasblomster-website'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button
+                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                    aria-label='Open Hema project code in new tab'
+                  >
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${allstars})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+          >
+            {' '}
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <span className=' text-lg font-bold text-white tracking-wider'>
+                Allstar Training Center
+              </span>
+              <p className='text-center'>
+                Responsive React website built with structured components and
+                performance-focused design.
+              </p>
+              <div className='pt-8 text-center'>
+                <a
+                  href='https://rcilo-as.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <button
+                  disabled
+                  aria-disabled='true'
+                  title='Code not available'
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg opacity-50 cursor-not-allowed'
+                >
+                  Code
+                </button>
+              </div>
+            </div>
+          </div>
           <div
             style={{ backgroundImage: `url(${weatherApp})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
@@ -196,47 +273,6 @@ function Works() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${hemasblomster})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                Hema's blomster
-              </span>
-              <p className='text-center'>
-                PrestaShop e-commerce solution with payment integration, SEO
-                setup, and hosting configuration.
-              </p>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://hemasblomster.dk/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Hema project code in new tab'
-                  >
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/hemasblomster/hemasblomster-website'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Hema project code in new tab'
-                  >
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
             style={{ backgroundImage: `url(${gameBoard})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
@@ -316,41 +352,7 @@ function Works() {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${allstars})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
-          >
-            {' '}
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
-                Allstar Training Center
-              </span>
-              <p className='text-center'>
-                Responsive React website built with structured components and
-                performance-focused design.
-              </p>
-              <div className='pt-8 text-center'>
-                <a
-                  href='https://rcilo-as.netlify.app/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <button
-                  disabled
-                  aria-disabled='true'
-                  title='Code not available'
-                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg opacity-50 cursor-not-allowed'
-                >
-                  Code
-                </button>
-              </div>
-            </div>
-          </div>
+
           {/* <div
             style={{ backgroundImage: `url(${code})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
