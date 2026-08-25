@@ -1,12 +1,9 @@
 import React from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-// import code from "../assets/code2.png";
 import weatherApp from '../assets/weatherApp.png';
 import photoDotNet from '../assets/photoDotNet.png';
 import hemasblomster from '../assets/hemasblomster.png';
-import gameBoard from '../assets/game-board.png';
 import dankoed from '../assets/dankoed.png';
-import jsGallery from '../assets/jsGallery.png';
 import allstars from '../assets/allstars.png';
 import drawlab from '../assets/drawlab.png';
 
