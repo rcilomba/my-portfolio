@@ -7,16 +7,16 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Home />
-      <About />
-      <Works />
-      <Contact />
-    </div>
+      <main>
+        <Home />
+        <About />
+        <Works />
+        <Contact />
+      </main>
+    </>
   );
 }
 
 export default App;
-
-

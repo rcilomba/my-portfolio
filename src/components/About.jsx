@@ -5,11 +5,10 @@ const About = () => {
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <div
+    <section
       name='about'
       id='about'
       className='w-full h-screen bg-[#062419] text-gray-300'
-      role='region'
       aria-labelledby='about-heading'
     >
       <div className='flex flex-col justify-center items-center w-full h-full'>
@@ -22,12 +21,12 @@ const About = () => {
         >
           <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4'>
             <div className='sm:text-right pb-8 pl-4'>
-              <p
+              <h2
                 id='about-heading'
                 className='text-4xl font-bold inline border-b-4 border-green-900'
               >
                 About me
-              </p>
+              </h2>
             </div>
             <div></div>
           </div>
@@ -37,18 +36,19 @@ const About = () => {
             </div>
             <div>
               <p className='text-white'>
-                I’m a developer who values structure, consistency, and
-                continuous improvement, both in work and in life. Outside tech,
-                I train BJJ and judo, enjoy reading, music, and baking, and I’m
-                currently improving my chess skills. These interests strengthen
-                the same discipline and strategic thinking I bring to building
-                reliable digital solutions.
+                I’m a technical professional who enjoys understanding how
+                systems work together and finding the root cause of problems.
+                With a background in web development, I bring structured
+                thinking, hands-on problem-solving, and clear communication. I’m
+                interested in opportunities across IT where I can troubleshoot,
+                improve systems and workflows, and keep developing my technical
+                skills.
               </p>
             </div>
           </div>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 export default About;

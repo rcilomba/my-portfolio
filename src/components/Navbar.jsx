@@ -15,33 +15,36 @@ const Navbar = () => {
   };
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062419] text-gray-300'>
+    <header className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062419] text-gray-300'>
       <div>
         <img src={logo} alt='Ramadan Cilomba logo' className='mx-auto w-2/3' />
       </div>
       {/* menu */}
-      <ul className='hidden md:flex gap-x-8'>
-        <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to='work' smooth={true} duration={500}>
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link to='contact' smooth={true} duration={500}>
-            Contact
-          </Link>
-        </li>
-      </ul>
+      <nav className='hidden md:flex' aria-label='Main navigation'>
+        <ul className='flex gap-x-8'>
+          <li>
+            <Link to='home' smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to='about' smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to='work' smooth={true} duration={500}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to='contact' smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
       {/* Hamburger */}
       <button
         onClick={handleClick}
@@ -54,57 +57,59 @@ const Navbar = () => {
       {/* Mobile menu */}
       <AnimatePresence>
         {nav && (
-          <motion.ul
-            className='absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
-            initial={shouldReduceMotion ? false : { opacity: 0, x: 30 }}
-            animate={shouldReduceMotion ? {} : { opacity: 1, x: 0 }}
-            exit={shouldReduceMotion ? {} : { opacity: 0, x: 30 }}
-            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <li className='py-6 text-4xl'>
-              <Link
-                onClick={handleClick}
-                to='home'
-                smooth={true}
-                duration={500}
-              >
-                Home
-              </Link>
-            </li>
-            <li className='py-6 text-4xl'>
-              {' '}
-              <Link
-                onClick={handleClick}
-                to='about'
-                smooth={true}
-                duration={500}
-              >
-                About
-              </Link>
-            </li>
-            <li className='py-6 text-4xl'>
-              {' '}
-              <Link
-                onClick={handleClick}
-                to='work'
-                smooth={true}
-                duration={500}
-              >
-                Work
-              </Link>
-            </li>
-            <li className='py-6 text-4xl'>
-              {' '}
-              <Link
-                onClick={handleClick}
-                to='contact'
-                smooth={true}
-                duration={500}
-              >
-                Contact
-              </Link>
-            </li>
-          </motion.ul>
+          <nav aria-label='Main navigation'>
+            <motion.ul
+              className='absolute top-0 left-0 w-full h-screen bg-[#074139] flex flex-col justify-center items-center'
+              initial={shouldReduceMotion ? false : { opacity: 0, x: 30 }}
+              animate={shouldReduceMotion ? {} : { opacity: 1, x: 0 }}
+              exit={shouldReduceMotion ? {} : { opacity: 0, x: 30 }}
+              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <li className='py-6 text-4xl'>
+                <Link
+                  onClick={handleClick}
+                  to='home'
+                  smooth={true}
+                  duration={500}
+                >
+                  Home
+                </Link>
+              </li>
+              <li className='py-6 text-4xl'>
+                {' '}
+                <Link
+                  onClick={handleClick}
+                  to='about'
+                  smooth={true}
+                  duration={500}
+                >
+                  About
+                </Link>
+              </li>
+              <li className='py-6 text-4xl'>
+                {' '}
+                <Link
+                  onClick={handleClick}
+                  to='work'
+                  smooth={true}
+                  duration={500}
+                >
+                  Work
+                </Link>
+              </li>
+              <li className='py-6 text-4xl'>
+                {' '}
+                <Link
+                  onClick={handleClick}
+                  to='contact'
+                  smooth={true}
+                  duration={500}
+                >
+                  Contact
+                </Link>
+              </li>
+            </motion.ul>
+          </nav>
         )}
       </AnimatePresence>
       {/* Social icons */}
@@ -141,7 +146,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </header>
   );
 };
 

@@ -13,7 +13,12 @@ function Home() {
   };
 
   return (
-    <div name='home' className='h-screen w-full bg-[#062419]'>
+    <section
+      name='home'
+      id='home'
+      aria-labelledby='home-heading'
+      className='h-screen w-full bg-[#062419]'
+    >
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <motion.div
           className='flex flex-col justify-center h-full'
@@ -21,14 +26,15 @@ function Home() {
           animate={shouldReduceMotion ? {} : { opacity: 1, y: 0 }}
           transition={textTransition}
         >
-          <motion.h2
+          <motion.h1
+            id='home-heading'
             className='text-4xl sm:text-5xl font-bold text-white'
             initial={shouldReduceMotion ? false : { opacity: 0, y: 16 }}
             animate={shouldReduceMotion ? {} : { opacity: 1, y: 0 }}
             transition={{ ...textTransition, delay: 0.1 }}
           >
             Building Reliable Web Solutions{' '}
-          </motion.h2>
+          </motion.h1>
           <motion.p
             className='text-white py-4 max-w-md'
             initial={shouldReduceMotion ? false : { opacity: 0, y: 16 }}
@@ -83,7 +89,7 @@ function Home() {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 export default Home;

@@ -11,7 +11,12 @@ function Works() {
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#062419]'>
+    <section
+      id='work'
+      aria-labelledby='work-heading'
+      name='work'
+      className='w-full md:h-screen text-gray-300 bg-[#062419]'
+    >
       <motion.div
         className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'
         initial={shouldReduceMotion ? false : { opacity: 0, y: 26 }}
@@ -20,9 +25,12 @@ function Works() {
         transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className='pb-8 w-full flex justify-center items-center flex-col'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-500'>
+          <h2
+            id='work-heading'
+            className='text-4xl font-bold inline border-b-4 text-gray-300 border-green-500'
+          >
             Work
-          </p>
+          </h2>
           <p className='py-6 text-2xl'>
             Check out some of my work. Please contact me if you want to see more
           </p>
@@ -36,9 +44,9 @@ function Works() {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Drawlab
-              </span>
+              </h3>
               <p className='text-center'>
                 React/Next.js-based website with reusable components, responsive
                 layout, and frontend performance setup.
@@ -77,9 +85,9 @@ function Works() {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Dankød
-              </span>
+              </h3>
               <p className='text-center'>
                 WordPress-based corporate website with structured content,
                 plugin configuration, and hosting setup.
@@ -119,9 +127,9 @@ function Works() {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Hema's blomster
-              </span>
+              </h3>
               <p className='text-center'>
                 PrestaShop e-commerce solution with payment integration, SEO
                 setup, and hosting configuration.
@@ -161,9 +169,9 @@ function Works() {
             {' '}
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Allstar Training Center
-              </span>
+              </h3>
               <p className='text-center'>
                 Responsive React website built with structured components and
                 performance-focused design.
@@ -195,9 +203,9 @@ function Works() {
           >
             {/* Hver Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Weather App
-              </span>
+              </h3>
               <p className='text-center'>
                 React app integrating external weather APIs with dynamic state
                 handling and responsive UI.{' '}
@@ -233,9 +241,9 @@ function Works() {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
-              <span className=' text-lg font-bold text-white tracking-wider'>
+              <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Photo Gallery
-              </span>
+              </h3>
               <p className='text-center'>
                 ASP.NET Core application with structured routing and scalable
                 backend architecture.
@@ -270,7 +278,7 @@ function Works() {
           </div>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 }
 export default Works;
