@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { Link } from 'react-scroll';
@@ -9,9 +9,20 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const shouldReduceMotion = useReducedMotion();
   const handleClick = () => setNav(!nav);
+  const menuButtonRef = useRef(null);
+
+  const HamburgerEscape = (event) => {
+    if (event.key === 'Escape' && nav === true) {
+      setNav(false);
+      menuButtonRef.current?.focus();
+    }
+  };
 
   return (
-    <header className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062419] text-gray-300'>
+    <header
+      onKeyDown={HamburgerEscape}
+      className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062419] text-gray-300'
+    >
       <div>
         <img src={logo} alt='Ramadan Cilomba logo' className='mx-auto w-2/3' />
       </div>
@@ -43,9 +54,11 @@ const Navbar = () => {
 
       {/* Hamburger */}
       <button
+        ref={menuButtonRef}
         onClick={handleClick}
         className='md:hidden z-10 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
         aria-label='Toggle menu'
+        aria-controls='mobile-navigation'
         aria-expanded={nav}
       >
         {!nav ? <FaBars /> : <FaTimes />}
@@ -53,7 +66,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       <AnimatePresence>
         {nav && (
-          <nav aria-label='Main navigation'>
+          <nav aria-label='Main navigation' id='mobile-navigation'>
             <motion.ul
               className='absolute top-0 left-0 w-full h-screen bg-[#074139] flex flex-col justify-center items-center'
               initial={shouldReduceMotion ? false : { opacity: 0, x: 30 }}
