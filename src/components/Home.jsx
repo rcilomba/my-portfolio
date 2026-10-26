@@ -54,6 +54,7 @@ function Home() {
           >
             {/* Primary CTA: scrolls to Work */}
             <Link
+              href='#work'
               to='work'
               smooth
               duration={500}
@@ -68,6 +69,7 @@ function Home() {
 
             {/* Secondary CTA: scrolls to Contact */}
             <Link
+              href='#contact'
               to='contact'
               smooth
               duration={500}

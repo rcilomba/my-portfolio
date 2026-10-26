@@ -10,10 +10,6 @@ const Navbar = () => {
   const shouldReduceMotion = useReducedMotion();
   const handleClick = () => setNav(!nav);
 
-  const openNewTab = (url) => {
-    window.open(url, '_blank');
-  };
-
   return (
     <header className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062419] text-gray-300'>
       <div>
@@ -23,22 +19,22 @@ const Navbar = () => {
       <nav className='hidden md:flex' aria-label='Main navigation'>
         <ul className='flex gap-x-8'>
           <li>
-            <Link to='home' smooth={true} duration={500}>
+            <Link href='#home' to='home' smooth={true} duration={500}>
               Home
             </Link>
           </li>
           <li>
-            <Link to='about' smooth={true} duration={500}>
+            <Link href='#about' to='about' smooth={true} duration={500}>
               About
             </Link>
           </li>
           <li>
-            <Link to='work' smooth={true} duration={500}>
+            <Link href='#work' to='work' smooth={true} duration={500}>
               Work
             </Link>
           </li>
           <li>
-            <Link to='contact' smooth={true} duration={500}>
+            <Link href='#contact' to='contact' smooth={true} duration={500}>
               Contact
             </Link>
           </li>
@@ -67,6 +63,7 @@ const Navbar = () => {
             >
               <li className='py-6 text-4xl'>
                 <Link
+                  href='#home'
                   onClick={handleClick}
                   to='home'
                   smooth={true}
@@ -78,6 +75,7 @@ const Navbar = () => {
               <li className='py-6 text-4xl'>
                 {' '}
                 <Link
+                  href='#about'
                   onClick={handleClick}
                   to='about'
                   smooth={true}
@@ -89,6 +87,7 @@ const Navbar = () => {
               <li className='py-6 text-4xl'>
                 {' '}
                 <Link
+                  href='#work'
                   onClick={handleClick}
                   to='work'
                   smooth={true}
@@ -100,6 +99,7 @@ const Navbar = () => {
               <li className='py-6 text-4xl'>
                 {' '}
                 <Link
+                  href='#contact'
                   onClick={handleClick}
                   to='contact'
                   smooth={true}
@@ -116,24 +116,26 @@ const Navbar = () => {
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-800'>
-            <button
+            <a
+              href='https://www.linkedin.com/in/ramadan-cilomba/'
+              target='_blank'
+              rel='noopener noreferrer'
               className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-              onClick={() =>
-                openNewTab('https://www.linkedin.com/in/ramadan-cilomba/')
-              }
               aria-label='Open LinkedIn profile in new tab'
             >
               Linkedin <FaLinkedin size={30} />
-            </button>
+            </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-            <button
+            <a
+              href='https://github.com/rcilomba'
+              target='_blank'
+              rel='noopener noreferrer'
               className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-              onClick={() => openNewTab('https://github.com/rcilomba')}
               aria-label='Open GitHub profile in new tab'
             >
               Github <FaGithub size={30} />
-            </button>
+            </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1d8844]'>
             <a

@@ -4,7 +4,7 @@ import weatherApp from '../assets/weatherApp.png';
 import photoDotNet from '../assets/photoDotNet.png';
 import hemasblomster from '../assets/hemasblomster.png';
 import dankoed from '../assets/dankoed.png';
-import allstars from '../assets/allstars.png';
+import kapiamba from '../assets/thekapiamba.png';
 import drawlab from '../assets/drawlab.png';
 
 function Works() {
@@ -43,7 +43,7 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Drawlab
               </h3>
@@ -53,28 +53,22 @@ function Works() {
               </p>
               <div className='pt-8 text-center'>
                 <a
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
                   href='http://drawlabdk.netlify.app/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  aria-label='drawlab demo'
                 >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Dankod admin in new tab'
-                  >
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                  aria-label='Open Drawlab Code - opens in a new tab'
                   href='https://github.com/rcilomba/drawlab'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Dankod admin in new tab'
-                  >
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
             </div>
@@ -84,7 +78,7 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Dankød
               </h3>
@@ -94,28 +88,13 @@ function Works() {
               </p>
               <div className='pt-8 text-center'>
                 <a
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                  aria-label='Open Dankod Demo - opens in a new tab'
                   href='http://dankoed.dk/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Dankod admin in new tab'
-                  >
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='http://dankoed.dk/wp-admin'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Dankod admin in new tab'
-                  >
-                    Code
-                  </button>
+                  Demo
                 </a>
               </div>
             </div>
@@ -126,7 +105,7 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Hema's blomster
               </h3>
@@ -136,64 +115,51 @@ function Works() {
               </p>
               <div className='pt-8 text-center'>
                 <a
-                  href='https://hemasblomster.dk/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Hema project code in new tab'
-                  >
-                    Demo
-                  </button>
-                </a>
-                <a
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                  aria-label='Open Hema project code in new tab'
                   href='https://github.com/hemasblomster/hemasblomster-website'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Hema project code in new tab'
-                  >
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${allstars})` }}
+            style={{ backgroundImage: `url(${kapiamba})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
             {' '}
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
-                Allstar Training Center
+                The Kapiamba
               </h3>
               <p className='text-center'>
-                Responsive React website built with structured components and
-                performance-focused design.
+                Room-booking app for a shared family summer house, with Supabase
+                authentication, a booking calendar, and role-based
+                administration.
               </p>
               <div className='pt-8 text-center'>
                 <a
-                  href='https://rcilo-as.netlify.app/'
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                  href='https://thekapiamba.netlify.app/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  aria-label='The Kapiamba Demo'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
+                  Demo
                 </a>
-                <button
-                  disabled
-                  aria-disabled='true'
-                  title='Code not available'
-                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg opacity-50 cursor-not-allowed'
+                <a
+                  href='https://github.com/rcilomba/family-hub'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                  aria-label='The Kapiamba Code'
                 >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -202,7 +168,7 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
             {/* Hver Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Weather App
               </h3>
@@ -212,25 +178,22 @@ function Works() {
               </p>
               <div className='pt-8 text-center'>
                 <a
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
                   href='https://deft-squirrel-728ebd.netlify.app/'
                   target='_blank'
                   rel='noopener noreferrer'
+                  aria-label='Weather App Demo'
                 >
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'>
-                    Demo
-                  </button>
+                  Demo
                 </a>
                 <a
+                  className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+                  aria-label='Weather App code opens in new tab'
                   href='https://github.com/rcilomba/react-weather-app'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Weather App code in new tab'
-                  >
-                    Code
-                  </button>
+                  Code
                 </a>
               </div>
             </div>
@@ -240,7 +203,7 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+            <div className=' flex justify-center items-center flex-col bg-black/80 p-4'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Photo Gallery
               </h3>
@@ -249,30 +212,9 @@ function Works() {
                 backend architecture.
               </p>
               <div className='pt-8 text-center'>
-                <a
-                  href='https://photogallery-asp-net.vercel.app/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Photo Gallery code in new tab'
-                  >
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href='https://github.com/rcilomba/PhotoGallery-with-ASP.NET'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <button
-                    className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
-                    aria-label='Open Photo Gallery code in new tab'
-                  >
-                    Code
-                  </button>
-                </a>
+                <p className='text-center px-4 py-3 m-2 text-white font-bold text-lg '>
+                  private source code
+                </p>
               </div>
             </div>
           </div>
