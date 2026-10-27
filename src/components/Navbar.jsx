@@ -73,7 +73,11 @@ const Navbar = () => {
       {/* Mobile menu */}
       <AnimatePresence>
         {nav && (
-          <nav aria-label='Main navigation' id='mobile-navigation'>
+          <nav
+            aria-label='Main navigation'
+            id='mobile-navigation'
+            className='md:hidden'
+          >
             <motion.ul
               className='absolute top-0 left-0 w-full h-screen bg-[#074139] flex flex-col justify-center items-center'
               initial={shouldReduceMotion ? false : { opacity: 0, x: 30 }}
