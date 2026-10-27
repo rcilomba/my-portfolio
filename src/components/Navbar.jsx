@@ -12,14 +12,21 @@ const Navbar = () => {
   const menuButtonRef = useRef(null);
 
   const HamburgerEscape = (event) => {
-    if (event.key === 'Escape' && nav === true) {
+    if (event.key === 'Escape' && nav === false) {
       setNav(false);
       menuButtonRef.current?.focus();
     }
   };
 
+  const handlerHeaderBlur = (event) => {
+    if (event.currentTarget.contains(event.relatedTarget) === false) {
+      setNav(false);
+    }
+  };
+
   return (
     <header
+      onBlur={handlerHeaderBlur}
       onKeyDown={HamburgerEscape}
       className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#062419] text-gray-300'
     >
