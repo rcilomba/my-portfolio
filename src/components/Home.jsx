@@ -58,12 +58,16 @@ function Home() {
               to='work'
               smooth
               duration={500}
-              className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-green-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+              className='group text-[#062419] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-green-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
               aria-label='See my work'
             >
               See My Work
               <span className='group-hover:rotate-90 duration-300'>
-                <HiArrowNarrowRight size={20} className='ml-3' />
+                <HiArrowNarrowRight
+                  size={20}
+                  className='ml-3'
+                  aria-hidden='true'
+                />
               </span>
             </Link>
 
@@ -83,7 +87,7 @@ function Home() {
         <div>
           <motion.img
             src={profileImg2}
-            alt='my profile'
+            alt='Ramadan Cilomba'
             className='rounded-full mx-auto w-1/3 md:w-1/2 lg:w-2/3'
             initial={shouldReduceMotion ? false : { opacity: 0, scale: 0.95 }}
             animate={shouldReduceMotion ? {} : { opacity: 1, scale: 1 }}
