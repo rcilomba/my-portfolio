@@ -56,7 +56,7 @@ function Home() {
             <Link
               href='#work'
               to='work'
-              smooth
+              smooth={!shouldReduceMotion}
               duration={500}
               className='group text-[#062419] w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-green-500 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
               aria-label='See my work'
@@ -75,7 +75,7 @@ function Home() {
             <Link
               href='#contact'
               to='contact'
-              smooth
+              smooth={!shouldReduceMotion}
               duration={500}
               className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md border-2 border-gray-500 hover:bg-gray-700/30 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
               aria-label='Get in touch'

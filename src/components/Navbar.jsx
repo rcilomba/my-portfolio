@@ -37,22 +37,42 @@ const Navbar = () => {
       <nav className='hidden md:flex' aria-label='Main navigation'>
         <ul className='flex gap-x-8'>
           <li>
-            <Link href='#home' to='home' smooth={true} duration={500}>
+            <Link
+              href='#home'
+              to='home'
+              smooth={!shouldReduceMotion}
+              duration={500}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link href='#about' to='about' smooth={true} duration={500}>
+            <Link
+              href='#about'
+              to='about'
+              smooth={!shouldReduceMotion}
+              duration={500}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link href='#work' to='work' smooth={true} duration={500}>
+            <Link
+              href='#work'
+              to='work'
+              smooth={!shouldReduceMotion}
+              duration={500}
+            >
               Work
             </Link>
           </li>
           <li>
-            <Link href='#contact' to='contact' smooth={true} duration={500}>
+            <Link
+              href='#contact'
+              to='contact'
+              smooth={!shouldReduceMotion}
+              duration={500}
+            >
               Contact
             </Link>
           </li>
@@ -90,7 +110,7 @@ const Navbar = () => {
                   href='#home'
                   onClick={handleClick}
                   to='home'
-                  smooth={true}
+                  smooth={!shouldReduceMotion}
                   duration={500}
                 >
                   Home
@@ -102,7 +122,7 @@ const Navbar = () => {
                   href='#about'
                   onClick={handleClick}
                   to='about'
-                  smooth={true}
+                  smooth={!shouldReduceMotion}
                   duration={500}
                 >
                   About
@@ -114,7 +134,7 @@ const Navbar = () => {
                   href='#work'
                   onClick={handleClick}
                   to='work'
-                  smooth={true}
+                  smooth={!shouldReduceMotion}
                   duration={500}
                 >
                   Work
@@ -126,7 +146,7 @@ const Navbar = () => {
                   href='#contact'
                   onClick={handleClick}
                   to='contact'
-                  smooth={true}
+                  smooth={!shouldReduceMotion}
                   duration={500}
                 >
                   Contact
