@@ -62,7 +62,7 @@ function Home() {
               aria-label='See my work'
             >
               See My Work
-              <span className='group-hover:rotate-90 duration-300'>
+              <span className='motion-safe:group-hover:rotate-90 motion-reduce:transition-none duration-300'>
                 <HiArrowNarrowRight
                   size={20}
                   className='ml-3'

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import weatherApp from '../assets/weatherApp.png';
 import photoDotNet from '../assets/photoDotNet.png';
@@ -40,7 +39,7 @@ function Works() {
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${drawlab})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
@@ -75,7 +74,7 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${dankoed})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
@@ -102,7 +101,7 @@ function Works() {
 
           <div
             style={{ backgroundImage: `url(${hemasblomster})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
@@ -128,7 +127,7 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${kapiamba})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {' '}
             {/* Hover Effects */}
@@ -165,7 +164,7 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${weatherApp})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {/* Hver Effects */}
             <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
@@ -200,7 +199,7 @@ function Works() {
           </div>
           <div
             style={{ backgroundImage: `url(${photoDotNet})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 hover:-translate-y-1'
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {/* Hover Effects */}
             <div className=' flex justify-center items-center flex-col bg-black/80 p-4'>
