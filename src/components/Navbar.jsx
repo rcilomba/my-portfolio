@@ -88,7 +88,7 @@ const Navbar = () => {
         aria-controls='mobile-navigation'
         aria-expanded={nav}
       >
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaBars aria-hidden='true' /> : <FaTimes aria-hidden='true' />}
       </button>
       {/* Mobile menu */}
       <AnimatePresence>
@@ -167,7 +167,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400 focus-within:ml-0'
               aria-label='Open LinkedIn profile in new tab'
             >
-              Linkedin <FaLinkedin size={30} />
+              Linkedin <FaLinkedin aria-hidden='true' size={30} />
             </a>
           </li>
           <li className='focus-within:ml-0 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] motion-safe:hover:ml-[-10px] motion-reduce:transition-none motion-reduce:ml-0 duration-300 bg-[#333333]'>
@@ -178,7 +178,7 @@ const Navbar = () => {
               className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400 focus-within:ml-0'
               aria-label='Open GitHub profile in new tab'
             >
-              Github <FaGithub size={30} />
+              Github <FaGithub aria-hidden='true' size={30} />
             </a>
           </li>
           <li className='focus-within:ml-0 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] motion-safe:hover:ml-[-10px] motion-reduce:transition-none motion-reduce:ml-0 duration-300 bg-[#1d8844]'>
@@ -187,7 +187,7 @@ const Navbar = () => {
               href='mailto:rcilomba@outlook.com'
               aria-label='Send email to Ramadan Cilomba'
             >
-              Email <HiOutlineMail size={30} />
+              Email <HiOutlineMail aria-hidden='true' size={30} />
             </a>
           </li>
         </ul>
