@@ -159,31 +159,31 @@ const Navbar = () => {
       {/* Social icons */}
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-800'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] motion-safe:hover:ml-[-10px] motion-reduce:transition-none motion-reduce:ml-0 duration-300 bg-green-800 focus-within:ml-0'>
             <a
               href='https://www.linkedin.com/in/ramadan-cilomba/'
               target='_blank'
               rel='noopener noreferrer'
-              className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+              className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400 focus-within:ml-0'
               aria-label='Open LinkedIn profile in new tab'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='focus-within:ml-0 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] motion-safe:hover:ml-[-10px] motion-reduce:transition-none motion-reduce:ml-0 duration-300 bg-[#333333]'>
             <a
               href='https://github.com/rcilomba'
               target='_blank'
               rel='noopener noreferrer'
-              className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+              className='flex justify-between items-center w-full text-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400 focus-within:ml-0'
               aria-label='Open GitHub profile in new tab'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1d8844]'>
+          <li className='focus-within:ml-0 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] motion-safe:hover:ml-[-10px] motion-reduce:transition-none motion-reduce:ml-0 duration-300 bg-[#1d8844]'>
             <a
-              className='flex justify-between items-center w-full text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400'
+              className='flex justify-between items-center w-full text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400 focus-within:ml-0'
               href='mailto:rcilomba@outlook.com'
               aria-label='Send email to Ramadan Cilomba'
             >
