@@ -27,3 +27,9 @@
       rgba(112, 255, 141, 0.8),
       hsla(127, 48%, 45%, 0.8)) !important;
 }
+
+@media (hover: none) {
+  .project-card-content {
+    opacity: 1;
+  }
+}

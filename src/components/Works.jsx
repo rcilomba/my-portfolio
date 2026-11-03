@@ -42,7 +42,7 @@ function Works() {
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div transition-transform duration-300 motion-reduce:transition-none motion-safe:hover:-translate-y-1'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
+            <div className='project-card-content opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col group-focus-within:opacity-100'>
               <h3 className=' text-lg font-bold text-white tracking-wider'>
                 Drawlab
               </h3>
