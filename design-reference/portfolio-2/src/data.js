@@ -30,12 +30,12 @@ export const projects = [
     live: 'https://dankoed.dk/',
   },
   {
-    name: 'MaddeArt',
-    category: 'Client project · Artist portfolio',
-    description: 'An artist portfolio focused on visual presentation, content management, responsive design and digital accessibility.',
+    name: 'Madeleine Dalla',
+    category: 'Client project · Photography portfolio',
+    description: 'A portfolio for a New York-based photographer, focused on visual presentation, content management, responsive design and digital accessibility.',
     technologies: ['CMS', 'Accessibility', 'Responsive design'],
     image: '/images/maddeart.png',
-    imageAlt: 'Screenshot of the MaddeArt artist portfolio homepage',
+    imageAlt: 'Screenshot of Madeleine Dalla’s photography portfolio homepage',
     inDevelopment: true,
   },
 ];

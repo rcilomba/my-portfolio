@@ -71,7 +71,7 @@ function Header() {
 function ProjectCard({ project }) {
   return <article className={`project-card min-w-0${project.featured ? ' featured' : ''}`}>
     <div className="project-visual">
-      {project.image ? <img src={project.image} alt={project.imageAlt} loading="lazy" /> : <div className="project-empty" role="img" aria-label="MaddeArt project screenshot coming soon"><strong>MaddeArt<span>.</span></strong><span>In development</span><small>Project screenshot coming soon</small></div>}
+      {project.image ? <img src={project.image} alt={project.imageAlt} loading="lazy" /> : <div className="project-empty" role="img" aria-label={`${project.name} project screenshot coming soon`}><strong>{project.name}<span>.</span></strong><span>In development</span><small>Project screenshot coming soon</small></div>}
     </div>
     <div className="project-content">
       <div className="project-heading">
